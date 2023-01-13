@@ -132,3 +132,5 @@ SELECT c.nombre, p.nombre, p.precio, a.nombre, a.direccion
 		INNER JOIN productos AS p ON c.id = p.categoria_id
 		INNER JOIN almacen_producto AS ap ON p.id = ap.producto_id
         INNER JOIN almacenes AS a ON ap.almacen_id = a.id;
+
+        
